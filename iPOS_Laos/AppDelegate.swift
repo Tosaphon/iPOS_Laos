@@ -16,7 +16,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        let navigationBarAppearace = UINavigationBar.appearance()
+        UIApplication.shared.statusBarStyle = UIStatusBarStyle.lightContent
+        navigationBarAppearace.barTintColor = UIColor(red: 255/255, green: 174/255, blue: 69/255, alpha: 255/255)
+        navigationBarAppearace.isTranslucent = false
+        
         // Override point for customization after application launch.
+        let splitViewController = self.window!.rootViewController as! UISplitViewController
+//        let leftNavController = splitViewController.viewControllers.first as! UINavigationController
+//        let masterViewController = leftNavController.topViewController as! OrderTableViewController
+//        let detailViewController = splitViewController.viewControllers.last as! MenuCollectionViewController
+//        
+//        masterViewController.delegate = detailViewController.delegate
+        
+        let rightNavController = splitViewController.viewControllers.last as! UINavigationController
+        let detailViewController = rightNavController.topViewController as! MenuCollectionViewController
+        
+        detailViewController.navigationItem.leftItemsSupplementBackButton = true
+        detailViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
+        
         return true
     }
 

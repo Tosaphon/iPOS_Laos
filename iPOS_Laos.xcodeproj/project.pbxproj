@@ -8,13 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		F219A00A1D9A69A8003BAEEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F219A0091D9A69A8003BAEEA /* AppDelegate.swift */; };
-		F219A00C1D9A69A8003BAEEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F219A00B1D9A69A8003BAEEA /* ViewController.swift */; };
 		F219A00F1D9A69A8003BAEEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F219A00D1D9A69A8003BAEEA /* Main.storyboard */; };
 		F219A0121D9A69A8003BAEEA /* iPOS_Laos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F219A0101D9A69A8003BAEEA /* iPOS_Laos.xcdatamodeld */; };
 		F219A0141D9A69A8003BAEEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F219A0131D9A69A8003BAEEA /* Assets.xcassets */; };
 		F219A0171D9A69A8003BAEEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F219A0151D9A69A8003BAEEA /* LaunchScreen.storyboard */; };
 		F219A0221D9A69A8003BAEEA /* iPOS_LaosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F219A0211D9A69A8003BAEEA /* iPOS_LaosTests.swift */; };
 		F219A02D1D9A69A8003BAEEA /* iPOS_LaosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F219A02C1D9A69A8003BAEEA /* iPOS_LaosUITests.swift */; };
+		F219A03F1D9A71EF003BAEEA /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F219A03E1D9A71EF003BAEEA /* SplitViewController.swift */; };
+		F219A0411D9A7220003BAEEA /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F219A0401D9A7220003BAEEA /* OrderTableViewController.swift */; };
+		F219A0431D9A7532003BAEEA /* MenuCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F219A0421D9A7532003BAEEA /* MenuCollectionViewController.swift */; };
+		F219A0451D9A7548003BAEEA /* CustomMenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F219A0441D9A7548003BAEEA /* CustomMenuCollectionViewCell.swift */; };
+		F219A0471D9A757B003BAEEA /* CustomOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F219A0461D9A757B003BAEEA /* CustomOrderTableViewCell.swift */; };
+		F219A0491D9A85B1003BAEEA /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F219A0481D9A85B1003BAEEA /* Menu.swift */; };
+		F219A04C1D9A89B9003BAEEA /* noimage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F219A04B1D9A89B9003BAEEA /* noimage.jpeg */; };
+		F219A04E1D9A9075003BAEEA /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = F219A04D1D9A9075003BAEEA /* Order.swift */; };
+		F2A46F981D9FD6A300F0B217 /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A46F971D9FD6A300F0B217 /* MenuList.swift */; };
+		F2F15CB11D9BD61000165708 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F15CB01D9BD61000165708 /* HeaderCollectionReusableView.swift */; };
+		F2F15CB31D9BDF7100165708 /* GroupMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F15CB21D9BDF7100165708 /* GroupMenu.swift */; };
+		F2F15CB51D9BE15C00165708 /* EditMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F15CB41D9BE15C00165708 /* EditMenuTableViewController.swift */; };
+		F2F15CB71D9BE17400165708 /* EditMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F15CB61D9BE17400165708 /* EditMenuTableViewCell.swift */; };
+		F2F15CB91D9BE3FB00165708 /* EditMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F15CB81D9BE3FB00165708 /* EditMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +50,6 @@
 /* Begin PBXFileReference section */
 		F219A0061D9A69A8003BAEEA /* iPOS_Laos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPOS_Laos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F219A0091D9A69A8003BAEEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F219A00B1D9A69A8003BAEEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F219A00E1D9A69A8003BAEEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F219A0111D9A69A8003BAEEA /* iPOS_Laos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iPOS_Laos.xcdatamodel; sourceTree = "<group>"; };
 		F219A0131D9A69A8003BAEEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +61,20 @@
 		F219A0281D9A69A8003BAEEA /* iPOS_LaosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPOS_LaosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F219A02C1D9A69A8003BAEEA /* iPOS_LaosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPOS_LaosUITests.swift; sourceTree = "<group>"; };
 		F219A02E1D9A69A8003BAEEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F219A03E1D9A71EF003BAEEA /* SplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		F219A0401D9A7220003BAEEA /* OrderTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		F219A0421D9A7532003BAEEA /* MenuCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewController.swift; sourceTree = "<group>"; };
+		F219A0441D9A7548003BAEEA /* CustomMenuCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		F219A0461D9A757B003BAEEA /* CustomOrderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOrderTableViewCell.swift; sourceTree = "<group>"; };
+		F219A0481D9A85B1003BAEEA /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		F219A04B1D9A89B9003BAEEA /* noimage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = noimage.jpeg; path = Images/noimage.jpeg; sourceTree = "<group>"; };
+		F219A04D1D9A9075003BAEEA /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		F2A46F971D9FD6A300F0B217 /* MenuList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
+		F2F15CB01D9BD61000165708 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		F2F15CB21D9BDF7100165708 /* GroupMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupMenu.swift; sourceTree = "<group>"; };
+		F2F15CB41D9BE15C00165708 /* EditMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditMenuTableViewController.swift; sourceTree = "<group>"; };
+		F2F15CB61D9BE17400165708 /* EditMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditMenuTableViewCell.swift; sourceTree = "<group>"; };
+		F2F15CB81D9BE3FB00165708 /* EditMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditMenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +105,7 @@
 		F2199FFD1D9A69A7003BAEEA = {
 			isa = PBXGroup;
 			children = (
+				F219A04A1D9A89A7003BAEEA /* Images */,
 				F219A0081D9A69A8003BAEEA /* iPOS_Laos */,
 				F219A0201D9A69A8003BAEEA /* iPOS_LaosTests */,
 				F219A02B1D9A69A8003BAEEA /* iPOS_LaosUITests */,
@@ -100,8 +127,20 @@
 			isa = PBXGroup;
 			children = (
 				F219A0091D9A69A8003BAEEA /* AppDelegate.swift */,
-				F219A00B1D9A69A8003BAEEA /* ViewController.swift */,
 				F219A00D1D9A69A8003BAEEA /* Main.storyboard */,
+				F2F15CB81D9BE3FB00165708 /* EditMenuViewController.swift */,
+				F2F15CB61D9BE17400165708 /* EditMenuTableViewCell.swift */,
+				F2F15CB41D9BE15C00165708 /* EditMenuTableViewController.swift */,
+				F219A0441D9A7548003BAEEA /* CustomMenuCollectionViewCell.swift */,
+				F219A0421D9A7532003BAEEA /* MenuCollectionViewController.swift */,
+				F2F15CB01D9BD61000165708 /* HeaderCollectionReusableView.swift */,
+				F219A0461D9A757B003BAEEA /* CustomOrderTableViewCell.swift */,
+				F219A0401D9A7220003BAEEA /* OrderTableViewController.swift */,
+				F219A04D1D9A9075003BAEEA /* Order.swift */,
+				F219A0481D9A85B1003BAEEA /* Menu.swift */,
+				F2A46F971D9FD6A300F0B217 /* MenuList.swift */,
+				F2F15CB21D9BDF7100165708 /* GroupMenu.swift */,
+				F219A03E1D9A71EF003BAEEA /* SplitViewController.swift */,
 				F219A0131D9A69A8003BAEEA /* Assets.xcassets */,
 				F219A0151D9A69A8003BAEEA /* LaunchScreen.storyboard */,
 				F219A0181D9A69A8003BAEEA /* Info.plist */,
@@ -126,6 +165,14 @@
 				F219A02E1D9A69A8003BAEEA /* Info.plist */,
 			);
 			path = iPOS_LaosUITests;
+			sourceTree = "<group>";
+		};
+		F219A04A1D9A89A7003BAEEA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F219A04B1D9A89B9003BAEEA /* noimage.jpeg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F219A04C1D9A89B9003BAEEA /* noimage.jpeg in Resources */,
 				F219A0171D9A69A8003BAEEA /* LaunchScreen.storyboard in Resources */,
 				F219A0141D9A69A8003BAEEA /* Assets.xcassets in Resources */,
 				F219A00F1D9A69A8003BAEEA /* Main.storyboard in Resources */,
@@ -262,9 +310,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F219A00C1D9A69A8003BAEEA /* ViewController.swift in Sources */,
+				F219A0411D9A7220003BAEEA /* OrderTableViewController.swift in Sources */,
 				F219A00A1D9A69A8003BAEEA /* AppDelegate.swift in Sources */,
+				F219A0491D9A85B1003BAEEA /* Menu.swift in Sources */,
+				F2F15CB31D9BDF7100165708 /* GroupMenu.swift in Sources */,
+				F219A04E1D9A9075003BAEEA /* Order.swift in Sources */,
 				F219A0121D9A69A8003BAEEA /* iPOS_Laos.xcdatamodeld in Sources */,
+				F219A03F1D9A71EF003BAEEA /* SplitViewController.swift in Sources */,
+				F219A0471D9A757B003BAEEA /* CustomOrderTableViewCell.swift in Sources */,
+				F219A0451D9A7548003BAEEA /* CustomMenuCollectionViewCell.swift in Sources */,
+				F2F15CB91D9BE3FB00165708 /* EditMenuViewController.swift in Sources */,
+				F2F15CB11D9BD61000165708 /* HeaderCollectionReusableView.swift in Sources */,
+				F2F15CB71D9BE17400165708 /* EditMenuTableViewCell.swift in Sources */,
+				F2F15CB51D9BE15C00165708 /* EditMenuTableViewController.swift in Sources */,
+				F2A46F981D9FD6A300F0B217 /* MenuList.swift in Sources */,
+				F219A0431D9A7532003BAEEA /* MenuCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +569,7 @@
 				F219A0331D9A69A8003BAEEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F219A0341D9A69A8003BAEEA /* Build configuration list for PBXNativeTarget "iPOS_LaosTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +578,7 @@
 				F219A0361D9A69A8003BAEEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F219A0371D9A69A8003BAEEA /* Build configuration list for PBXNativeTarget "iPOS_LaosUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +587,7 @@
 				F219A0391D9A69A8003BAEEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
